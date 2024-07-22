@@ -53,7 +53,7 @@ const Footer = () => {
         <div className='w-[85%] flex sm:flex-row flex-col gap-x-16 gap-y-8 m-auto sm:pt-14 pt-7 sm:pb-10 pb-5'>
           <div className='sm:w-[25%] w-[100%] '>
             <div>
-              <Image src={logo} className='' alt="Logo"/>
+              <Image src={logo}  className='' alt="Logo"/>
             </div>
             <div className='flex justify-between items-center mt-8'>
               {socialIcons.map((Icon, index) => (

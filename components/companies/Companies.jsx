@@ -15,22 +15,22 @@ const Companies = () => {
       <h2 className='font-bold text-xl'>Trusted by the world’s largest companies</h2>
       <div className='grid md:grid-cols-6 sm:grid-cols-3 gap-y-6 gap-x-4 grid-cols-2 items-center '>
         <div>
-          <Image src={img1}/>
+          <Image src={img1} alt='img'/>
         </div>
         <div>
-          <Image src={img2}/>
+          <Image src={img2} alt='img'/>
         </div>
         <div>
-          <Image src={img3}/>
+          <Image src={img3} alt='img'/>
         </div>
         <div>
-          <Image src={img4}/>
+          <Image src={img4} alt='img'/>
         </div>
         <div>
-          <Image src={img5}/>
+          <Image src={img5} alt='img'/>
         </div>
         <div>
-          <Image src={img6}/>
+          <Image src={img6} alt='img'/>
         </div>
       </div>
     </div>

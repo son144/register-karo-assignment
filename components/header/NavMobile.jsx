@@ -10,7 +10,7 @@ const NavMobile = () => {
     return (
         <div className='flex items-center w-[90%] m-auto   py-2 justify-between sm:hidden'>
             <div>
-                <Image src={logo} />
+                <Image src={logo} alt='img'/>
             </div>
             <div className='flex items-center gap-8'>
                 <div className='flex items-center gap-6'>

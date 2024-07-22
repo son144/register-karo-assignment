@@ -12,7 +12,7 @@ export const Header = () => {
   <>
     <div className='sm:flex items-center hidden w-[80%] m-auto  justify-between'>
         <div>
-            <Image src={logo}/>
+            <Image src={logo} alt='img'/>
         </div>
         <div className='text-[#393939] text-base  flex items-center gap-x-10'>
         <div className='flex items-center'>

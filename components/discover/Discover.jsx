@@ -61,7 +61,7 @@ const Discover = () => {
             <span className=''>Discover the Ultimate Workspace Solution </span>
             {/* <span className='h-5 w-5 rounded-full bg-primary'></span> */}
           </div>
-          <p className='text-[#393939] sm:text-base text-sm mt-3'>From solo entrepreneurs to growing teams, find everything you need under one roof. Whether it's pay-per-use plans or fixed desks, our flexible options cater to your unique work style, ensuring seamless productivity and success.</p>
+          <p className='text-[#393939] sm:text-base text-sm mt-3'>From solo entrepreneurs to growing teams, find everything you need under one roof. Whether it&apos;s pay-per-use plans or fixed desks, our flexible options cater to your unique work style, ensuring seamless productivity and success.</p>
           </div>
                 <div className='flex sm:flex-row flex-col gap-8 mt-10'>
                     <div className='sm:w-[50%] w-[100%] flex flex-col gap-5'>

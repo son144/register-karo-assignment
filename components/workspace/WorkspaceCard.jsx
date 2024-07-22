@@ -20,7 +20,7 @@ const WorkspaceCard = () => {
                     <h2 className='text-3xl sm:font-semibold font-medium'>Flexible workspace designed around your needs</h2>
                     <div className='flex flex-col gap-y-3'>
                         <div className='flex items-center gap-4'>
-                            <div className='h-6 w-6 '><Image src={indFlag} className='rounded-full h-full w-full object-contain' /></div>
+                            <div className='h-6 w-6 '><Image src={indFlag} alt='img' className='rounded-full h-full w-full object-contain' /></div>
                             <p>Prices for India</p>
                         </div>
                         <div className='flex items-center gap-4'>
@@ -40,7 +40,7 @@ const WorkspaceCard = () => {
                 <div className='sm:grid grid-cols-4 gap-6 hidden'>
                     <div className='bg-white '>
                         <div className='w-[100%]'>
-                            <Image src={image1} className='w-full object-contain' />
+                            <Image src={image1} alt='img' className='w-full object-contain' />
                         </div>
                         <div className='p-3'>
                             <h5 className='text-lg'>Private offices</h5>
@@ -65,11 +65,11 @@ const WorkspaceCard = () => {
                     </div>
                     <div className='bg-white '>
                         <div className='w-[100%]'>
-                            <Image src={img2} className='w-full object-contain' />
+                            <Image src={img2} alt='img' className='w-full object-contain' />
                         </div>
                         <div className='p-3'>
                             <h5 className='text-lg'>Custom Offices</h5>
-                            <p className='text-sm mt-2'>When off-the-shelf simply isn't
+                            <p className='text-sm mt-2'>When off-the-shelf simply isn&apos;t
                                 enough. Customise all aspects of your
                                 space, including furniture and branding.</p>
                             <div className='flex items-center my-4 gap-2'>
@@ -90,7 +90,7 @@ const WorkspaceCard = () => {
                     </div>
                     <div className='bg-white '>
                         <div className='w-[100%]'>
-                            <Image src={img3} className='w-full object-contain' />
+                            <Image src={img3} alt='img' className='w-full object-contain' />
                         </div>
                         <div className='p-3'>
                             <h5 className='text-lg'>Day Offices</h5>
@@ -115,7 +115,7 @@ const WorkspaceCard = () => {
                     </div>
                     <div className='bg-white '>
                         <div className='w-[100%]'>
-                            <Image src={img4} className='w-full object-contain' />
+                            <Image src={img4} alt='img' className='w-full object-contain' />
                         </div>
                         <div className='p-3'>
                             <h5 className='text-lg'>Office membership</h5>
@@ -138,8 +138,6 @@ const WorkspaceCard = () => {
                             </div>
                         </div>
                     </div>
-
-
                 </div>
                 <Carousel />
             </div>

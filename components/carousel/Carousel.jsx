@@ -133,7 +133,7 @@ const Carousel = () => {
               <div className='bg-white rounded-lg'>
                 <div className='p-3'>
                   <h5 className='text-lg font-bold'>Custom Offices</h5>
-                  <p className='text-sm mt-2'>When off-the-shelf simply isn't
+                  <p className='text-sm mt-2'>When off-the-shelf simply isn&apos;t
                     enough. Customise all aspects of your
                     space, including furniture and branding.</p>
                   <div className='flex items-center my-4 gap-2'>

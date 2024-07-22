@@ -16,7 +16,7 @@ const FeatureCard = () => {
 <div className='grid sm:grid-cols-4 grid-cols-1 gap-x-6 gap-y-6 w-[90%]  m-auto py-7'>
       <div className=' border-2 border-[#EEF0F2] rounded-lg w-fit flex gap-6 items-center h-fit py-3 px-5 '>
         <div className=' w-[98px]  '>
-           <Image src={img1} className='w-full h-full object-contain'/>
+           <Image src={img1} alt='img' className='w-full h-full object-contain'/>
         </div>
         <div className='flex flex-col sm:gap-8 gap-4 text-2xl font-medium '>
          <div>
@@ -29,7 +29,7 @@ const FeatureCard = () => {
     </div>
     <div className=' border-2 border-[#EEF0F2] rounded-lg w-fit flex gap-6 items-center h-fit py-3 px-5 '>
         <div className=' w-[98px] h '>
-           <Image src={img2} className='w-full h-full object-contain'/>
+           <Image src={img2} alt='img' className='w-full h-full object-contain'/>
         </div>
         <div className='flex flex-col sm:gap-8 gap-4  text-2xl font-medium '>
          <div>
@@ -43,7 +43,7 @@ const FeatureCard = () => {
     </div>
     <div className=' border-2 border-[#EEF0F2] rounded-lg w-fit flex gap-6 items-center h-fit py-3 px-5 '>
         <div className=' w-[98px] h '>
-           <Image src={img3} className='w-full h-full object-contain'/>
+           <Image src={img3} alt='img' className='w-full h-full object-contain'/>
         </div>
         <div className='flex flex-col sm:gap-8 gap-4  text-2xl font-medium '>
          <div>
@@ -57,7 +57,7 @@ const FeatureCard = () => {
     </div>
     <div className=' border-2 border-[#EEF0F2] rounded-lg w-fit flex gap-6 items-center h-fit py-3 px-5 '>
         <div className=' w-[98px] h '>
-           <Image src={img4} className='w-full h-full object-contain'/>
+           <Image src={img4} alt='img' className='w-full h-full object-contain'/>
         </div>
         <div className='flex flex-col gap-4 text-2xl font-medium '>
          <div>
@@ -71,7 +71,7 @@ const FeatureCard = () => {
     </div>
     <div className=' border-2 border-[#EEF0F2] rounded-lg w-fit flex gap-6 items-center h-fit py-3 px-5 '>
         <div className=' w-[98px] h '>
-           <Image src={img5} className='w-full h-full object-contain'/>
+           <Image src={img5} alt='img' className='w-full h-full object-contain'/>
         </div>
         <div className='flex flex-col gap-4 text-2xl font-medium '>
          <div>
@@ -85,7 +85,7 @@ const FeatureCard = () => {
     </div>
     <div className=' border-2 border-[#EEF0F2] rounded-lg w-fit flex gap-6 items-center h-fit py-3 px-5 '>
         <div className=' w-[98px] h '>
-           <Image src={img6} className='w-full h-full object-contain'/>
+           <Image src={img6} alt='img' className='w-full h-full object-contain'/>
         </div>
         <div className='flex flex-col sm:gap-8 gap-4  text-2xl font-medium '>
          <div>

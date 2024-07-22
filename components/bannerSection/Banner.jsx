@@ -20,6 +20,7 @@ const Banner = () => {
           src={bannerImage}
           alt="banner image"
           className="w-full h-full object-fill"
+
         />
       </div>
     
@@ -78,37 +79,37 @@ const Banner = () => {
             <div className='grid sm:grid-cols-6 grid-cols-3 gap-6'> 
               <div className='flex flex-col gap-2 '>
                 <div className='bg-white w-fit rounded-md p-2'>
-                  <Image src={img1} />
+                  <Image src={img1} alt='img'/>
                 </div>
                 <p className='text-white sm:text-sm text-xs font-semibold'>New Delhi</p>
               </div>
               <div className='flex flex-col gap-2'>
                 <div className=' bg-white w-fit rounded-md p-2'>
-                  <Image src={img2} />
+                  <Image src={img2} alt='img'/>
                 </div>
                 <p className='text-white font-semibold text-center sm:text-sm text-xs'>Noida</p>
               </div>
               <div className='flex flex-col gap-2'>
                 <div className=' bg-white w-fit rounded-md p-1'>
-                  <Image src={img3} />
+                  <Image src={img3} alt='img'/>
                 </div>
                 <p className='flex flex-col gap-2 text-white sm:text-sm text-xs font-semibold text-center'>Bangalore</p>
               </div>
               <div className='flex flex-col gap-2'>
                 <div className=' bg-white w-fit rounded-md p-2'>
-                  <Image src={img4} />
+                  <Image src={img4} alt='img'/>
                 </div>
                 <p className='text-white sm:text-sm text-xs font-semibold text-center'>Mumbai</p>
               </div>
               <div className='flex flex-col gap-2'>
                 <div className=' bg-white w-fit rounded-md p-2'>
-                  <Image src={img5} />
+                  <Image src={img5} alt='img'/>
                 </div>
                 <p className='text-white sm:text-sm text-xs font-semibold text-center'>Hyderabad</p>
               </div>
               <div className='flex flex-col gap-2'>
                 <div className='bg-white w-fit rounded-md p-2'>
-                  <Image src={img6} />
+                  <Image src={img6} alt='img'/>
                 </div>
                 <p className='text-white sm:text-sm text-xs font-semibold text-center'>Chennai</p>
               </div>
