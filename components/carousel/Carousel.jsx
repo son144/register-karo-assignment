@@ -79,16 +79,15 @@ const Carousel = () => {
   return (
     <div className=' sm:hidden block  mt-12'>
       <div className="flex justify-center items-center relative lg:mt-5    ">
-        <div className="">
+        {/* <div className="">
           <button
             className={`${arrowButtonClass} left-4  flex items-center justify-center `}
             onClick={() => slider.current?.slickPrev()}
           >
-            {/* <FlatIcon className="flaticon-down-right-2 text-secondary text-xl font-bold rotate-180"/> */}
 
             L
           </button>
-        </div>
+        </div> */}
 
         <div className="back h-auto   ">
           {/* <div className="w-[50%] h-auto border border-[red] "> */}
@@ -183,17 +182,15 @@ const Carousel = () => {
           </div>
         </div>
 
-        <div className="">
+        {/* <div className="">
           <button
             className={`${arrowButtonClass} right-4  text-center flex items-center justify-center`}
             onClick={() => slider.current?.slickNext()}
           >
-            {/* <FlatIcon className="flaticon-down-right-2  text-secondary text-xl font-bold"/> */}
 
             R
-            {/* <FlatIcon className="flaticon-left-arrow lg:text-xl text-lg" /> */}
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   )
