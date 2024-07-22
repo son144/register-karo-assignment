@@ -55,7 +55,7 @@ const Footer = () => {
             <div>
               <Image src={logo}  className='' alt="Logo"/>
             </div>
-            <div className='flex justify-between items-center mt-8'>
+            <div className='flex gap-x-10 items-center mt-8'>
               {socialIcons.map((Icon, index) => (
                 <div key={index}><Icon className='text-white' /></div>
               ))}

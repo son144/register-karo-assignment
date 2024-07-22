@@ -11,7 +11,7 @@ const Faq = () => {
         <div className='sm:w-[10%] w-[30%] h-[2px] border-b border-b-[#CBCED8]'></div>
         <div className='sm:w-[10%] w-[30%]  h-[2px] border-b border-b-[#CBCED8]'></div>
       </div>
-      <div className='flex sm:flex-row flex-col gap-x-10 gap-y-10 w-[85%] m-auto  mt-8'>
+      <div className='flex sm:flex-row flex-col gap-x-10 sm:gap-y-10 gap-y-5 w-[85%] m-auto  mt-8'>
         <div className='sm:w-[50%] w-[100%] flex flex-col sm:gap-10 gap-5'>
           <div className='  sm:text-lg text-base font-semibold'>
             <Disclosure >
